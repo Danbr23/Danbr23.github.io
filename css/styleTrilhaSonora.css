@@ -1,0 +1,19 @@
+audio{
+    border: 2px solid blueviolet;
+    
+}
+.trilhaSonora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+   
+}
+h1{
+    width: 100%;
+    top: 5%;
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+}

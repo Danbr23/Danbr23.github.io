@@ -1,0 +1,50 @@
+
+
+h1{
+    width: 100%;
+    top: 5%;
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    font-size: 60px;
+}
+
+form{
+
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    outline: 2px solid #ae6bf2;
+    
+    min-height: 500px;
+    width: 500px;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#nomeInput, #emailnput, #assuntoInput{
+    height: 20px;
+    width: 300px;
+    
+}
+
+input:hover{
+    background: #ffffff;
+    border: 1px solid #990000;
+}
+#mensagemArea{
+    height: 200px;
+    width: 300px;
+}
+#mensagemArea:hover{
+    background: #ffffff;
+    border: 1px solid #990000;
+}
+#enviarMensagem{
+    padding: 10px 30px;
+    position: relative;
+}

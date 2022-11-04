@@ -1,0 +1,97 @@
+/* Cabeçalho com os links dos gêneros de filmes */
+.CategoriasDeFilme {
+	text-align: center;
+	position: relative;
+	margin-bottom: 30px;
+
+}
+
+.CategoriasDeFilme ul{
+	display: inline;
+	background-color: #ffffff36;
+	padding-left: 0;
+	border-radius: 99px;
+	padding: 5px;
+}
+
+.CategoriasDeFilme li {
+    list-style: none;
+    display: inline-block;
+	padding-left: 20px; /* Espaço do conteúdo do elemento ate ate ate a margem */
+	padding-right: 20px;
+	border-radius: 99px;	
+}
+
+.CategoriasDeFilme li:hover{
+	background-color: aliceblue;
+	transition-duration: 0.2s;
+}
+
+.CategoriasDeFilme a {
+    text-decoration: none;
+	font-family: Arial;
+	color: white;
+	font-size: large;
+}
+
+.CategoriasDeFilme li a:hover{
+	color: black;
+	transition-duration: 0.2s;
+}
+
+
+
+/* Lista de filmes*/
+
+.ListaDeFilmes ul{
+	margin-left: 200px;
+	margin-right: 200px;	
+}
+
+.ListaDeFilmes li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	width: 200px;
+}
+
+.ListaDeFilmes img {
+	width: 150px;
+}
+
+.ListaDeFilmes a{
+	text-decoration: none;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ 
+.Box img {
+	width: 250px;
+	display: inline-block;
+	float: left;
+}
+
+.informacoes {
+	width: 500px;
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+}
+
+.Box {
+	top:60%;
+	left: 50%;
+	transform: translate(-50%, -55%);
+	width: 800px;
+	background-color: aliceblue;
+	color: black;
+	position: absolute;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+
